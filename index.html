@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">Joseph Banibatiti Asira</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title animate">Hi, I'm <span class="highlight">Joseph B. Asira</span></h1>
+            <p class="hero-subtitle animate">Cybersecurity Student | Graphic Designer | Web Developer</p>
+            <div class="hero-image animate">
+                <img src="images/profile.png" alt="Profile Picture" id="profile-img">
+            </div>
+            <p class="hero-desc animate">Passionate about securing digital landscapes, crafting stunning visuals, and building modern web experiences.</p>
+            <div class="hero-buttons animate">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="files/Joseph_Asira_CV.pdf" class="btn btn-secondary" download>View My CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am Joseph Banibatiti Asira, a cybersecurity student, graphic designer, and web developer passionate about building secure systems and creating impactful digital experiences. I combine creativity with technical skills to solve problems, design visuals, and develop modern web solutions while growing toward becoming a top cybersecurity professional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cybersecurity</h3>
+                    <p>Ethical Hacking Basics, Bash Scripting and Peneteration Testing</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Adobe Photoshop Expert</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate">
+                    <div class="project-image">
+                        <img src="images/pro1-img.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mini Shop Management System</h3>
+                        <p>This project is a simple shop management framework, where shop keeper can add and remove items, see items costumers buy, calculate sales and shop keepers can also see the amount of a commodity left in the shop.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate">
+                    <div class="project-image">
+                        <img src="images/v-system.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>e-Voting System</h3>
+                        <p>This is an online voting system which i designed for the department after i volunteerily join the electoral commission for the deparment.</p>
+                        <p>After i joined the EC, i noticed students were not coming in their numbers to come and vote during election time and upon investigation, i got to realise they were not coming to vote because their hostels were far form campus and that just coming to vote was not a reason for them to walk such distance to come and vote.</p>
+                        <p>Hence, i built this system to help them stay in their various hostels and vote, to ensure free and fair election.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Graphic Design Section -->
+    <section id="design" class="design">
+        <div class="container">
+            <h2 class="section-title">Graphic Design Portfolio</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item animate">
+                    <img src="images/adevrt.png" alt="Design 1">
+                    <div class="overlay">
+                        <a href="images/adevrt.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item animate">
+                    <img src="images/boye.png" alt="Design 2">
+                    <div class="overlay">
+                        <a href="images/boye.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item animate">
+                    <img src="images/bundle flyer copy.png" alt="Design 3">
+                    <div class="overlay">
+                        <a href="images/bundle flyer copy.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item animate">
+                    <img src="images/JOB CARD.png" alt="Design 4">
+                    <div class="overlay">
+                        <a href="images/JOB CARD.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="gallery-note">Hover over image and click "+" icon to view larger version.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>asirajoseph4@gmail.com</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/asira-joseph-b4a93a236"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Joeboypng"><i class="fab fa-github"></i></a>
+                        <a href="https://www.tiktok.com/@asirajoseph4?_r=1&_t=ZS-95RDh3R2TXZ"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/joeboi_joee?igsh=anI4aGM4aGp4NTJu&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&amp;copy; 2026 Joseph B. Asira. All rights reserved. | Built with <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
