@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Joseph Asira is a cybersecurity student and web developer focused on secure systems, application development, and digital design.">
+    <meta property="og:title" content="Joseph Asira | Cybersecurity Student & Web Developer">
+    <meta property="og:description" content="Portfolio of a cybersecurity student, designer, and developer focused on secure systems and creative web experiences.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="[TODO: add live site URL]">
+    <meta property="og:image" content="images/profile.png">
+    <meta property="og:image:alt" content="Joseph Asira profile portrait">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; font-src 'self' https://cdnjs.cloudflare.com data:; script-src 'self' 'unsafe-inline' https://cdn.emailjs.com https://cdn.jsdelivr.net; connect-src 'self' https://api.emailjs.com https://api.web3forms.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none';">
+    <title>Joseph Asira | Cybersecurity Student & Web Developer</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <nav id="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">Joseph Banibatiti Asira</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#bundle-express">Bundle Express</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#writeups">Write-ups</a></li>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title animate">Hi, I'm <span class="highlight">Joseph B. Asira</span></h1>
+                <p class="hero-subtitle animate">Cybersecurity Student | Graphic Designer | Web Developer</p>
+                <div class="hero-image animate">
+                    <img src="images/profile.png" alt="Portrait of Joseph Asira standing confidently in front of a soft blue background" id="profile-img">
+                </div>
+                <p class="hero-desc animate">Passionate about securing digital landscapes, crafting impactful visuals, and building modern web experiences.</p>
+                <div class="hero-buttons animate">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <button id="request-cv-btn" class="btn btn-secondary" type="button">Request CV</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                            <p>
+                                I'm Joseph Banibatiti Asira, a cybersecurity student, web developer, and graphic designer from Ghana. My interest in security comes from wanting to understand not just how systems work, but how they fail — and using that insight to build ones that hold up under pressure. That thinking shaped projects like my e-voting system, where I implemented OTP-based verification and injection-safe database design from the ground up. I also hold leadership positions in student and youth governance, experiences that have sharpened my sense of accountability, fairness, and working with people toward a shared outcome. I bring that same combination of technical precision and leadership judgment into everything I build, whether it's a secure system, a website, or a design project.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                        <h3>Cybersecurity</h3>
+                        <p>Ethical hacking fundamentals, Bash scripting, and penetration testing.</p>
+                        <ul class="skill-list" aria-label="Cybersecurity skills">
+                            <li>Linux</li>
+                            <li>Nmap</li>
+                            <li>Wireshark</li>
+                            <li>Burp Suite</li>
+                            <li>Python</li>
+                            <li>Networking Fundamentals</li>
+                        </ul>
+                        <div class="progress-bar" aria-hidden="true">
+                            <div class="progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-palette" aria-hidden="true"></i>
+                        <h3>Graphic Design</h3>
+                        <p>I create portfolio flyers, business flyers, job cards, photo retouching, and a wide range of general graphic design work for brands, businesses, and personal promotion.</p>
+                        <div class="progress-bar" aria-hidden="true">
+                            <div class="progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code" aria-hidden="true"></i>
+                        <h3>Web Development</h3>
+                        <p>I build and improve websites for businesses, personal brands, portfolios, and general web projects, creating clean, functional, and user-friendly online experiences.</p>
+                        <div class="progress-bar" aria-hidden="true">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card animate">
+                        <div class="project-image">
+                            <img src="images/pro1-img.png" alt="JOE-MART Supermarket Management System dashboard preview">
+                        </div>
+                        <div class="project-info">
+                            <h3>Supermarket Management System (JOE-MART)</h3>
+                            <div class="project-security">
+                                <h4>Overview</h4>
+                                <p>A full-featured supermarket management system built with PHP and MySQL, designed to run in a local XAMPP environment. It replaces manual stock and sales tracking with a structured system covering point-of-sale, inventory, purchasing, staff management, and reporting.</p>
+
+                                <h4>Core Features</h4>
+                                <ul>
+                                    <li><strong>Point of Sale:</strong> product search, cart management, support for cash, mobile money, and card payments, with automatic stock deduction after each sale.</li>
+                                    <li><strong>Inventory Management:</strong> add/edit products, track stock levels, expiry dates, and reorder thresholds.</li>
+                                    <li><strong>Purchase Orders:</strong> create and track supplier orders, with automatic stock updates on delivery.</li>
+                                    <li><strong>Staff Management:</strong> role-based accounts (Manager, Supervisor, Cashier, Stock Clerk) with PIN-based authentication.</li>
+                                    <li><strong>Reporting:</strong> revenue charts, top-selling products, category breakdowns, and cashier performance tracking.</li>
+                                </ul>
+
+                                <h4>Role-Based Access Control</h4>
+                                <p>The system enforces different permission levels per role — for example, only Managers can access Staff Management and only Managers/Supervisors can view Reports or create Purchase Orders, while Cashiers are limited to POS and viewing inventory. This ensures each staff member only has access to what their role requires, following the principle of least privilege.</p>
+
+                                <h4>Tech Stack</h4>
+                                <p>PHP, MySQL, PDO (prepared statements for database queries), running on Apache via XAMPP.</p>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Joeboypng/supermarket-managemant-system.git" class="btn btn-small" target="_blank" rel="noopener noreferrer">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card animate">
+                        <div class="project-image">
+                            <img src="images/v-system.png" alt="E-voting system interface preview">
+                        </div>
+                        <div class="project-info">
+                            <h3>e-Voting System</h3>
+                            <div class="project-security">
+                                <h4>Authentication</h4>
+                                <p>In this project, students authenticate by entering their student ID and student email. After both fields are entered, they click “Request OTP” to receive a one-time password sent to their student email. They must enter that OTP correctly before they can access the voting dashboard. This two-step process confirms both identity (ID + email) and live possession of the account (OTP), helping reduce unauthorized access.</p>
+
+                                <h4>Double-Vote Prevention</h4>
+                                <p>Each student ID and email is uniquely assigned by the school, so I used them as the base identifier for the voting record. Since friends could know each other’s ID and email and attempt to log in as someone else, I added the OTP step specifically to verify that the person logging in is the actual account owner and not just someone with the right details.</p>
+
+                                <h4>Password Storage</h4>
+                                <p>Voters do not use a password at all — they only use their ID, email, and OTP. The admin page is protected by a single password known only to me, and that password is stored as a hash rather than plaintext. This was included because students could try to manipulate the URL to reach the admin area, so the hashed password acts as a final layer of defense if someone finds their way there.</p>
+
+                                <h4>Input Validation</h4>
+                                <p>All database queries in this system use prepared statements with parameterized inputs (via PDO), rather than directly inserting user input into SQL strings. This protects against SQL injection across the login and voting flows. Passwords for the admin account are also never compared in plaintext — they're checked using password_verify() against a securely hashed value. User input is additionally sanitized before processing to guard against other common input-based attacks.</p>
+
+                                <h4>Known Limitations</h4>
+                                <p><strong>IP-based vote blocking:</strong> after a student votes, their IP is blocked from voting again. Limitation: students sharing a network, such as the same campus Wi-Fi or NAT, could share a public IP, which could incorrectly block a legitimate second voter. A VPN could also be used to bypass this control.</p>
+                                <p><strong>OTP brute-force lockout:</strong> an account is locked after 4 incorrect OTP attempts to prevent guessing attacks. Anyone blocked for either reason sees an on-screen message to contact me for review. On contact, I manually check whether that student already voted. If they have already voted, the block stays and is treated as an attempted manipulation. If they have not voted, I unblock them and issue a warning.</p>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Joeboypng/e-voting-system.git" class="btn btn-small" target="_blank" rel="noopener noreferrer">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Bundle Express card: placed after Projects and before Certifications -->
+        <section id="bundle-express" class="bundle">
+            <div class="container">
+                <div class="certifications-card">
+                    <h3 class="section-title">Bundle Express — Data Bundles, Delivered</h3>
+                    <p class="note">Quick, reliable data bundle delivery, occasionally taking a few minutes during high network traffic.</p>
+                    <div style="text-align:center; margin-top:1rem;">
+                        <a href="https://www.bundleshopgh.com/store/bundle-express" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy Data Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <div class="certifications-card">
+                    <p class="certification-status">Google Cybersecurity Professional Certificate — In Progress (3 of 9 courses completed)</p>
+                    <ul class="certification-list">
+                        <li><strong>Foundations of Cybersecurity</strong> — <a href="https://coursera.org/share/963d14a0678a18eef09c151e08760865" target="_blank" rel="noopener noreferrer">Verify Certificate</a></li>
+                        <li><strong>Play It Safe: Manage Security Risks</strong> — <a href="https://coursera.org/share/48edb07b2ba2ff800a34bde88ede53f2" target="_blank" rel="noopener noreferrer">Verify Certificate</a></li>
+                        <li><strong>Connect and Protect: Networks and Network Security</strong> — <a href="https://coursera.org/share/9b57ae692ea78923257761ecae9d2079" target="_blank" rel="noopener noreferrer">Verify Certificate</a></li>
+                    </ul>
+                    <p class="note">This program is still in progress, and additional certificates will be added as each course is completed.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="writeups" class="writeups">
+            <div class="container">
+                <h2 class="section-title">Security Write-ups</h2>
+                <div class="writeup-list">
+                    <article class="writeup-card">
+                        <h3>Building Trust Without Passwords: OTP-Based Voter Verification</h3>
+                        <p>In my e-voting project, I wanted a verification method that was secure but still simple for students to use. Instead of creating another password, I used their student ID, student email, and a one-time code to confirm that the person voting was really the account owner.</p>
+                        <div class="writeup-content">
+                            <p>When I designed the authentication system for my e-voting project, the first challenge was clear: students shouldn't need to create and remember another password just to vote. But I still needed to be certain that the person voting was actually who they claimed to be.</p>
+                            <p>My solution was to use two things every student already has and that are uniquely tied to them by the school: their student ID and their student email. On their own, though, these details aren't enough — friends often know each other's ID numbers or even their email addresses, which means someone could log in pretending to be someone else.</p>
+                            <p>That's where the OTP (one-time password) comes in. After entering their ID and email, students have to click "Request OTP," which sends a one-time code to their student email. Only after entering that correct code do they reach the voting dashboard. This step matters because it proves the person isn't just someone who knows another student's details — they have to actually have live access to that student's email account at that moment.</p>
+                            <p>I think of it as two layers doing two different jobs: the ID and email identify who you're claiming to be, and the OTP verifies you actually are that person. Neither one alone would be enough, but together they cover for each other's weaknesses.</p>
+                            <p>This project also taught me that "no password" doesn't mean "no security" — sometimes removing a password and replacing it with a smarter verification step is actually the safer design, especially for a one-time-use system like voting where account recovery and long-term credential storage aren't the point.</p>
+                        </div>
+                    </article>
+                    <article class="writeup-card">
+                        <h3>Why the Terminal Isn't Scary: Getting Comfortable with Linux</h3>
+                        <p>When I started learning cybersecurity, the command line felt intimidating, but I quickly realized that Linux was less about memorizing random commands and more about learning how systems actually work. The terminal became the place where I could see exactly what was happening and gain confidence in real tools.</p>
+                        <div class="writeup-content">
+                            <p>When I started learning cybersecurity, most tools and labs assumed I already knew Linux. I didn't, and the command line felt intimidating at first — no icons, no menus, just a blinking cursor waiting for you to type the right thing.</p>
+                            <p>What changed my mind was realizing the CLI isn't an alternative to a GUI, it's more precise than one. A GUI hides what's actually happening; the terminal shows you exactly what command ran and what it did. That matters in security, where you often need to know precisely what a system did, not just that "it worked."</p>
+                            <p>A few things that stood out as I got more comfortable:</p>
+                            <ul class="certification-list">
+                                <li><strong>Permissions matter more than I expected.</strong> Commands like chmod and chown aren't just Linux trivia — they're the difference between a secure server and one anyone can tamper with.</li>
+                                <li><strong>Everything is scriptable.</strong> Once you can chain commands together, repetitive tasks (like log searching with grep or automating scans) go from tedious to fast.</li>
+                                <li><strong>Most security tools live here first.</strong> Nmap, Wireshark's CLI mode (tshark), Burp Suite's automation, and even basic log analysis all rely on the terminal as a common language.</li>
+                            </ul>
+                            <p>I'm still early in this, learning basic navigation, permissions, and package management, but the CLI has gone from "the scary black screen" to the tool I reach for first when something needs to be done precisely.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="design" class="design">
+            <div class="container">
+                <h2 class="section-title">Graphic Design Portfolio</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item animate">
+                        <picture>
+                            <source srcset="images/adevrt.webp" type="image/webp">
+                            <img src="images/adevrt.png" alt="Promotional advertisement design for a digital campaign or event" loading="lazy">
+                        </picture>
+                        <div class="overlay">
+                            <a href="images/adevrt.png" class="view-btn" aria-label="Open promotional advertisement design in a larger view" target="_blank" rel="noopener noreferrer"><i class="fas fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate">
+                        <picture>
+                            <source srcset="images/bus.webp" type="image/webp">
+                            <img src="images/bus.png" alt="Creative poster design featuring a bold visual composition" loading="lazy">
+                        </picture>
+                        <div class="overlay">
+                            <a href="images/bus.png" class="view-btn" aria-label="Open poster design in a larger view" target="_blank" rel="noopener noreferrer"><i class="fas fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate">
+                        <picture>
+                            <source srcset="images/bundle-flyer-copy.webp" type="image/webp">
+                            <img src="images/bundle-flyer-copy.png" alt="Bundle flyer promotional design with event and product details" loading="lazy">
+                        </picture>
+                        <div class="overlay">
+                            <a href="images/bundle-flyer-copy.png" class="view-btn" aria-label="Open bundle flyer design in a larger view" target="_blank" rel="noopener noreferrer"><i class="fas fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate">
+                        <picture>
+                            <source srcset="images/job-card.webp" type="image/webp">
+                            <img src="images/job-card.png" alt="Professional job card design with contact and service information" loading="lazy">
+                        </picture>
+                        <div class="overlay">
+                            <a href="images/job-card.png" class="view-btn" aria-label="Open job card design in a larger view" target="_blank" rel="noopener noreferrer"><i class="fas fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate">
+                        <picture>
+                            <source srcset="images/closet.webp" type="image/webp">
+                            <img src="images/closet.png" alt="Promotional advertisement design for a digital campaign or event" loading="lazy">
+                        </picture>
+                        <div class="overlay">
+                            <a href="images/closet.png" class="view-btn" aria-label="Open promotional advertisement design in a larger view" target="_blank" rel="noopener noreferrer"><i class="fas fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate">
+                        <picture>
+                            <source srcset="images/fp.webp" type="image/webp">
+                            <img src="images/fp.png" alt="Promotional advertisement design for a digital campaign or event" loading="lazy">
+                        </picture>
+                        <div class="overlay">
+                            <a href="images/fp.png" class="view-btn" aria-label="Open promotional advertisement design in a larger view" target="_blank" rel="noopener noreferrer"><i class="fas fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                        <div class="gallery-item animate">
+                        <picture>
+                            <source srcset="images/mr.webp" type="image/webp">
+                            <img src="images/mr.png" alt="Promotional advertisement design for a digital campaign or event" loading="lazy">
+                        </picture>
+                        <div class="overlay">
+                            <a href="images/mr.png" class="view-btn" aria-label="Open promotional advertisement design in a larger view" target="_blank" rel="noopener noreferrer"><i class="fas fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="gallery-item animate">
+                        <picture>
+                            <source srcset="images/shito.webp" type="image/webp">
+                            <img src="images/shito.png" alt="Promotional advertisement design for a digital campaign or event" loading="lazy">
+                        </picture>
+                        <div class="overlay">
+                            <a href="images/shito.png" class="view-btn" aria-label="Open promotional advertisement design in a larger view" target="_blank" rel="noopener noreferrer"><i class="fas fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="gallery-note">Hover over an image and click the plus icon to view a larger version.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's work together!</h3>
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name" name="user_name" required>
+
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" name="user_email" required>
+
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" name="message" rows="6" required></textarea>
+
+                            <div class="form-actions">
+                                <button id="contact-submit" class="btn btn-primary" type="submit">Send Message</button>
+                            </div>
+                            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+                        </form>
+
+                        <div class="social-links" aria-label="Social media links">
+                            <a href="https://www.linkedin.com/in/joseph-asira-b4a93a236" target="_blank" rel="noopener noreferrer" aria-label="Visit Joseph Asira on LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://github.com/Joeboypng" target="_blank" rel="noopener noreferrer" aria-label="Visit Joseph Asira on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                            <a href="https://www.tiktok.com/@asirajoseph4" target="_blank" rel="noopener noreferrer" aria-label="Visit Joseph Asira on TikTok"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/joeboi_joee" target="_blank" rel="noopener noreferrer" aria-label="Visit Joseph Asira on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><span aria-label="Copyright">©</span> <span id="year">2026</span> Joseph B. Asira. All rights reserved. Built with HTML, CSS, JavaScript and Python.</p>
+    </footer>
+
+    <!-- CV Request Modal (Web3Forms) -->
+    <div id="cv-modal" class="modal-overlay" hidden aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="cv-modal-title">
+            <header class="modal-header">
+                <h3 id="cv-modal-title">Request My CV</h3>
+                <button class="modal-close" aria-label="Close request form">✕</button>
+            </header>
+            <div class="modal-body">
+                <form id="cv-request-form" class="modal-form" novalidate>
+                    <label for="cv-name">Name <span aria-hidden="true">*</span></label>
+                    <input type="text" id="cv-name" name="name" required>
+
+                    <label for="cv-email">Email <span aria-hidden="true">*</span></label>
+                    <input type="email" id="cv-email" name="email" required>
+
+                    <label for="cv-company">Company / Organization</label>
+                    <input type="text" id="cv-company" name="company">
+
+                    <label for="cv-reason">Reason / Role you're considering me for</label>
+                    <textarea id="cv-reason" name="reason" rows="4"></textarea>
+
+                    <!-- Web3Forms required hidden fields and honeypot -->
+                    <input type="hidden" name="access_key" value="7c194dd6-1b39-4d40-9dd0-03b4cbbca225">
+                    <input type="checkbox" name="botcheck" style="display:none">
+                    <input type="hidden" name="subject" value="New CV Request from Portfolio">
+
+                    <div class="form-actions">
+                        <button id="cv-submit" class="btn btn-primary" type="submit">Request CV</button>
+                        <button type="button" class="btn btn-secondary modal-cancel">Cancel</button>
+                    </div>
+                    <div id="cv-form-status" class="form-status" role="status" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
